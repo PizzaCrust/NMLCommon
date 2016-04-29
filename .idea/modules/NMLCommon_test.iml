@@ -13,6 +13,7 @@
     <orderEntry type="module" module-name="NMLCommon_main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.0.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.ow2.asm:asm-debug-all:5.1" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.0.1" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="NMLCommon_main" />
