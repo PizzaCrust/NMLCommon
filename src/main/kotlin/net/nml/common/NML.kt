@@ -1,5 +1,7 @@
 package net.nml.common
 
+import net.nml.common.security.BasicSecurityManager
+
 /**
  * The main class of NML Common.
  *
@@ -8,9 +10,14 @@ package net.nml.common
  */
 class NML {
     /**
-     * NML's object module of Versioning.
+     * NML's avaliable objects as a class instance.
      */
-    companion object Versioning {
+    companion object {
+        /**
+         * The ASM security manager.
+         */
+        val SecurityManager : net.nml.common.security.SecurityManager = BasicSecurityManager()
+
         /**
          * Retrieves the common's version.
          */
@@ -39,7 +46,6 @@ class NML {
         fun getVersionBranch() : Branch {
             return Branch.DEV
         }
-
 
         /**
          * Commons has no implementation, show just output versioning info.
