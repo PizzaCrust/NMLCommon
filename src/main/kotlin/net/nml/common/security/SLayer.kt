@@ -1,4 +1,4 @@
-package net.nml.common.mod
+package net.nml.common.security
 
 /**
  * Represents the security layers of NML.
