@@ -16,7 +16,7 @@ class NML {
         /**
          * The ASM security manager.
          */
-        val SecurityManager : net.nml.common.security.SecurityManager = BasicSecurityManager()
+        val securityManager : net.nml.common.security.SecurityManager = BasicSecurityManager()
 
         /**
          * Retrieves the common's version.
