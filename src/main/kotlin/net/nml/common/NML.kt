@@ -1,5 +1,6 @@
 package net.nml.common
 
+import net.nml.common.event.RegularEventBus
 import net.nml.common.security.BasicSecurityManager
 
 /**
@@ -12,11 +13,16 @@ class NML {
     /**
      * NML's avaliable objects as a class instance.
      */
-    companion object {
+    companion object Info {
         /**
          * The ASM security manager.
          */
         val securityManager : net.nml.common.security.SecurityManager = BasicSecurityManager()
+
+        /**
+         * The custom Kotlin event bus.
+         */
+        val eventBus : net.nml.common.event.EventBus = RegularEventBus()
 
         /**
          * Retrieves the common's version.

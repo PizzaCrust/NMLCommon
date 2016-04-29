@@ -42,10 +42,4 @@ class ModContainer(name: String, version: String, author: String, website: Strin
          */
         fun onDisable()
     }
-
-    /**
-     * Mods are suggested to extend this class to receive a constructor for absolute no constructor issues.
-     */
-    abstract class AbstractMod() : IMod {
-    }
 }
