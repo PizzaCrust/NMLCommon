@@ -21,4 +21,5 @@ dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:1.0.1"
     compile "org.jetbrains.kotlin:kotlin-reflect:1.0.1"
     compile 'org.ow2.asm:asm-debug-all:5.1'
+    compile 'commons-io:commons-io:2.5'
 }

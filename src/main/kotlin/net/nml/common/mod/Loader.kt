@@ -10,5 +10,5 @@ interface Loader {
     /**
      * Loads a file as a mod.
      */
-    fun load(file: java.io.File) : ModContainer;
+    fun load(file: java.io.File) : ModContainer?;
 }
